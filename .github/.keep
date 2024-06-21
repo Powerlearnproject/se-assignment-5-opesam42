@@ -1,0 +1,152 @@
+1. Installation of VS Code:
+I visit the Visual Studio Code website
+Then I click on download for windows.
+
+2. After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+
+I did not really edited the .json file. I just installed python extension and some other things.
+I changed the theme and increase font size.
+
+3. User Interface Overview:
+   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+
+   Activity Bar: this is on the left side of the interface, it houses the explorer button for showing files and folder structure
+   the Search icon for serch for text
+   the Source Control icon which works with version control system e.g. Git
+   Run and Debug 
+   Extensions to manage extensions
+
+   Side Bar: an extension of the activity bar
+
+   Editor bar: that where the code is written. At the center of the interface
+
+   Status bar: at the bottom of the interface
+   shows line and column number, file encoding, language mode, git status and notification
+
+
+   4. Command Palette:
+   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+
+   Command Palette is used for a wide range of tasks without needing to navigte through menus or remembering a keyboard shortcut
+
+   To access, go to menu, click on view and then Command palette
+
+   Task like:
+   Accessing Integrated Terminal
+   Changing language mode
+   Running a particular extension
+   Opening files
+
+
+5. Extensions in VS Code:
+   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+
+   Extension helop developers to meet up with specific need which vs code doesnt have at default. This allow for language support, importing new features, themes and streamline debugging process
+
+   Installing Extension.
+   On the activity bar, click on the extension icon, search for the extension using the search bar.
+   Once you find the required extension, click on the install button next to it
+
+   Managing Extension: To uninstall or update extension, go to the extension view and make necessary changes
+
+   Extension for Web Development
+   Gitlens
+   CSS Peek
+   Deebuger for Chrome
+   Javascript code snippets
+
+
+   6. Integrated Terminal:
+   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+
+   To Open Integrated Terminal
+   Navigate to menubar, selct Terminal, then click on New Terminal
+
+   Advantages
+   Reduces the stress of switching between different windows
+
+   Extensions in VS code can interact with the integrated terminal. So no need of downloading an external extension
+
+
+
+   7. File and Folder Management:
+   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+
+To create file, click on the explorer icon in the activity bar.
+Select "New file"
+Select directory rr folder you want to create the file
+Enter desired name and click "Enter"
+
+Creating New Folder
+Click on "file" in menu
+Select "New Folder" 
+Enter the folder name and select the directory where you want to save the new folder
+
+Opening File
+Click on the Explorer icon in the Activity Bar
+NAvigate to the file you want to open
+Double click the file name to open in the editor
+
+Opening Folders
+Click on File in the menu bar and then click on "Open Folder"
+Select the folder you want to open
+Click "open " to open the selected folder in VS Code
+
+
+8. Settings and Preferences:
+   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+
+   To access setting, click on the gear icon in the Activity Bar.
+
+   Changing theme:
+   Open settings view
+   Search for "Color Theme" and click on "Color Theme"
+   Chose a suitable theme from the dropdown list
+
+   Adjusting font size
+   Open settings view
+   Search for "Font Size" and adjust the font size setting
+
+   Changing Keybindings
+   Open setting viws
+   Search for "Keybindings" and clik on "Keyboard shortcut"
+   Use the UI to customize it or JSON
+
+   9. Debugging in VS Code:
+   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+   
+   To debug your program or code:
+
+   - Set breakpoint to navigate the line of code whete you want to pause execution to inspect variable
+   - Press "F5" to start debugging
+   - Once the program hit the breakpoint. VS Code will swith to debug view showing debug-related ingo
+   - You can hover over variables in the editor to see their current value
+   - You can also use "Step Over", "Step Into", "Step Out" to navigate line by line and function.
+   - click "continue" to resume execution
+   - click 'stop' to teminate debugging session.
+
+   Key Debugging Feature
+   - Variable Watch: Monitor value of variable in real-time or when paseed at a breakpoint
+   - Call Stack
+   - Breakpoint: to pause execution at specific lines of code for inspection
+
+
+   10. Using Source Control:
+    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
+    I usually use command line rater than the Source control UI
+
+    Initializing a repo
+    -Open integrated terminal
+    enter "git init"
+    create a repo on github
+    then enter "git remote add origin https://github.com/username/repo-name
+
+    Making Commits
+    - after making changes to file
+    - enter "git status" to check the if the file has being modified
+    - if yes, enter "git add filename" to register or approve modification
+    - then to commit, enter "git commit -m Enter any message"
+
+    To push changes
+    - enter "git push -u origin branch_name"
